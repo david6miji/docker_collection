@@ -1,4 +1,4 @@
-FROM david6miji/gulp_kor:latest
+FROM david6miji/gulp-kor:latest
 
 MAINTAINER David You <david6miji@gmail.com>
 
