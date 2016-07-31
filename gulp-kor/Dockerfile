@@ -1,6 +1,6 @@
 FROM node:4.4.7
 
-MAINTAINER David You <bmfrog2@gmail.com>
+MAINTAINER David You <david6miji@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
