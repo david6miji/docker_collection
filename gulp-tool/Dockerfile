@@ -1,6 +1,6 @@
-FROM gulp_kor:latest
+FROM david6miji/gulp_kor:latest
 
-MAINTAINER David You <bmfrog2@gmail.com>
+MAINTAINER David You <david6miji@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
