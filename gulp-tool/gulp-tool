@@ -1,2 +1,0 @@
-#!/bin/bash
-docker run --name gulp-tool --rm -it -v ~/gulp-tool:/gulp-tool -v $(pwd):/work gulp-tool:latest
