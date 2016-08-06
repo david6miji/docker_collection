@@ -24,7 +24,7 @@ ENV LANGUAGE ko_KR.UTF-8
 
 RUN apt-get update
 
-# Gulp Install
-RUN npm install -g gulp 
+# Gulp 4.0 Install
+RUN npm install gulpjs/gulp-cli -g
 
 CMD	bash
