@@ -7,6 +7,10 @@ ENV DEBIAN_FRONTEND noninteractive
 # network util
 RUN apt-get install -y net-tools
 
+# docker 
+WORKDIR /tmp/
+RUN	wget -qO- https://get.docker.com/ | sh
+
 # gulp-tool 
 ENV PATH $PATH:/gulp-tool/
 
