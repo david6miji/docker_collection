@@ -23,6 +23,9 @@ RUN apt-get install -y gtkwave
 # Install texinfo 
 RUN apt-get install -y texinfo
 
+# Install ctags
+RUN apt-get install -y ctags
+
 # Install simavr
 WORKDIR /tmp/
 RUN git clone git://github.com/buserror-uk/simavr.git
